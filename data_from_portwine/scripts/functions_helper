@@ -1867,13 +1867,13 @@ pw_duplicate () {
     IFS="$orig_IFS"
 
     old_IFS=$IFS && IFS="%"
-    PW_DUPLICATE_GUI="$("${pw_yad}" --width="${PW_DUPLICATE_SIZE_W}" --height="${PW_DUPLICATE_SIZE_H}" \
+    "${pw_yad}" --width="${PW_DUPLICATE_SIZE_W}" --height="${PW_DUPLICATE_SIZE_H}" \
     --columns="$MAIN_GUI_COLUMNS" --homogeneous-column --form \
     --gui-type-layout=${MAIN_MENU_GUI_TYPE_LAYOUT} \
     --window-icon="$PW_GUI_ICON_PATH/portproton.svg" \
     --title "PortProton-${install_ver} (${scripts_install_ver}${BRANCH_VERSION})" \
     --align-buttons --scroll --separator=" " ${PW_GENERATE_BUTTONS_D} \
-    --button="$(gettext "MAIN MENU")"!"$PW_GUI_ICON_PATH/$BUTTON_SIZE.png":0 2>/dev/null)"
+    --button="$(gettext "MAIN MENU")"!"$PW_GUI_ICON_PATH/$BUTTON_SIZE.png":0 2>/dev/null
     IFS="$orig_IFS"
 
     pw_yad_set_form
