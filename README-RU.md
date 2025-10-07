@@ -7,7 +7,7 @@
   <a href="https://flathub.org/ru/apps/ru.linux_gaming.PortProton">
     <img src="https://img.shields.io/flathub/downloads/ru.linux_gaming.PortProton?style=flat&logo=flathub" alt="Flathub Downloads">
   </a>
-  <a href="https://translate.codeberg.org/projects/portproton/">
+  <a href="https://translate.codeberg.org/engage/portproton">
     <img src="https://img.shields.io/weblate/progress/portproton?server=https%3A%2F%2Ftranslate.codeberg.org&logo=weblate&logoColor=%232185D0" alt="Translate Codeberg">
   </a>
   <a href="https://t.me/linux_gaming_ru">
@@ -26,6 +26,10 @@
 # **Язык README**
 
 **Русский** - [English](README.md)
+
+<a href="https://translate.codeberg.org/engage/portproton/">
+<img src="https://translate.codeberg.org/widget/portproton/multi-blue.svg" alt="Translation status" />
+</a>
 
 ## Внимание
 
